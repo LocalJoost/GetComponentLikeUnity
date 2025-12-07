@@ -1,0 +1,38 @@
+- !<ObjectPrefab/496a8d46-23f2-44e2-8c51-565574cd5062>
+  PackagePath: ""
+  objects:
+    - !<own> 3faa9148-5a38-418a-b493-7535837ff77d
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/3faa9148-5a38-418a-b493-7535837ff77d>
+  PrefabRemaps:
+    - 3faa9148-5a38-418a-b493-7535837ff77d: 3faa9148-5a38-418a-4b6c-8aca7c800882
+    - 70db1371-bfd3-4190-9af4-86cb9c06a780: f115da16-b02f-4ffe-b851-fbaaae16d54b
+  Name: MyPrefab
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 70db1371-bfd3-4190-9af4-86cb9c06a780
+- !<ScriptComponent/70db1371-bfd3-4190-9af4-86cb9c06a780>
+  PrefabRemaps:
+    []
+  Name: MyChildClass
+  Enabled: true
+  ScriptAsset: !<reference> 15a7fdb8-24c7-466c-8eb7-08969452b505
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
